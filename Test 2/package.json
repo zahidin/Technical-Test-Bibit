@@ -1,0 +1,35 @@
+{
+  "name": "test-bibit",
+  "version": "1.0.0",
+  "description": "Test Bibit No 2",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "sequelize": "sequelize --options-path=bin/helpers/databases/sequalize/options.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zahidin"
+  },
+  "author": "zahidin",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^14.0.1",
+    "mariadb": "^2.5.4",
+    "mysql2": "^2.3.0",
+    "nodemon": "^2.0.12",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "sequelize": "^6.6.5",
+    "validate.js": "^0.13.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.0",
+    "sequelize-cli": "^6.2.0",
+    "sinon": "^11.1.2"
+  }
+}

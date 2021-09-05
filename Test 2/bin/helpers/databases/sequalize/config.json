@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "root123",
+    "database": "test_bibit",
+    "host": "mysql",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "root123",
+    "database": "test_bibit",
+    "host": "mysql",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "root123",
+    "database": "test_bibit",
+    "host": "mysql",
+    "dialect": "mysql"
+  }
+}
